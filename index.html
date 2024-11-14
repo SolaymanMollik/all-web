@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All website save a folder</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- my link -->
+    <link rel="stylesheet" href="assest/css/boiler css/hero.css" />
+    <link rel="stylesheet" href="assest/css/boiler css/footer.css" />
+    <script src="assest/css/boiler css/tail-wind.js"></script>
+    <!-- 
+     -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- zihad's portfolio -->
+
+    <!-- swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div id="hero-sec" class="swiper-slide">
+          <h1
+            style="
+              font-size: 2rem;
+              margin-left: 2rem;
+              color: #fff;
+              text-align: left;
+            "
+          >
+            Hey i'm solayman, <br />
+            here is my completed website
+          </h1>
+        </div>
+        <div id="zihad-port" class="swiper-slide">
+          <img src="assest/img/Screen Shot 2024-11-14 at 15.45.51.png" alt="" />
+          <a href="assest/zihad/index.html" target="_blank"
+            ><div>visit zihad</div></a
+          >
+        </div>
+        <!-- <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div> -->
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script src="assest/css/boiler css/swiperBoiler.js"></script>
+    <script src="assest/css/boiler css/nav.js"></script>
+  </body>
+</html>
+
+<!-- ///// -->
