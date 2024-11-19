@@ -23,6 +23,7 @@
     <script src="assest/css/boiler css/tail-wind.js"></script>
     <!-- 
      -->
+
     <style>
       html,
       body {
@@ -49,6 +50,37 @@
         width: 100%;
         height: 100%;
         /* object-fit: cover; */
+      }
+      #hero-sec {
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(rgb(56, 39, 39), black);
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        overflow-x: hidden;
+      }
+
+      /* zihad port */
+      .swiper-slide {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+      }
+      .swiper-slide > img {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide > a > div {
+        padding: 0.5rem 3rem;
+        background-color: #fff;
+        color: #000;
+        display: grid;
+        place-items: center;
+        position: absolute;
+        bottom: 3rem;
+        right: 3rem;
+        border-radius: 18px;
       }
     </style>
   </head>
